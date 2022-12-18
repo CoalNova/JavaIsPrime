@@ -16,3 +16,7 @@ Options:
 #### Return Codes:
 
 By the program will return a `1` if no number or valid number was passed. For results `-1` is returned if a number is not prime, and `0` if the provided number is prime.
+
+#### Building:
+
+To build yourself, two build scripts have been provided for build on windows `build.bat` and linux `build.sh`. Running these should produce an executable .jar file.
