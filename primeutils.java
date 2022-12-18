@@ -7,7 +7,7 @@ public class primeutils {
 
     /// The function which determines if a number is prime
     public static boolean IsPrime(int number) {
-        if ((number & 1) == 0)
+        if ((number & 1) == 0 && number > 2)
             return false;
 
         if (number < 2)
